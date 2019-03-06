@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj",
+      "projectUniqueName": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj",
       "projectName": "CodeChallenge.ModelDomain",
-      "projectPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj",
+      "projectPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj",
       "packagesPath": "C:\\Users\\darkc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\obj\\",
+      "outputPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

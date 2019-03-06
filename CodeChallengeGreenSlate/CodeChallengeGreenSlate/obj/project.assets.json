@@ -12682,11 +12682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate.csproj",
+      "projectUniqueName": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate.csproj",
       "projectName": "CodeChallengeGreenSlate",
-      "projectPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate.csproj",
+      "projectPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate.csproj",
       "packagesPath": "C:\\Users\\darkc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\obj\\",
+      "outputPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12705,11 +12705,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projectos\\CodeChallengeGreenSlate\\CodeCallenge.BLL\\CodeChallenge.BLL.csproj": {
-              "projectPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeCallenge.BLL\\CodeChallenge.BLL.csproj"
+            "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeCallenge.BLL\\CodeChallenge.BLL.csproj": {
+              "projectPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeCallenge.BLL\\CodeChallenge.BLL.csproj"
             },
-            "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj": {
-              "projectPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj"
+            "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj": {
+              "projectPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChallenge.ModelDomain\\CodeChallenge.ModelDomain.csproj"
             }
           }
         }

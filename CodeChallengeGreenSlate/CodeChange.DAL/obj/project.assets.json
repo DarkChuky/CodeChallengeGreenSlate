@@ -3597,11 +3597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChange.DAL\\CodeChallenge.DAL.csproj",
+      "projectUniqueName": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChange.DAL\\CodeChallenge.DAL.csproj",
       "projectName": "CodeChallenge.DAL",
-      "projectPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChange.DAL\\CodeChallenge.DAL.csproj",
+      "projectPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChange.DAL\\CodeChallenge.DAL.csproj",
       "packagesPath": "C:\\Users\\darkc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projectos\\CodeChallengeGreenSlate\\CodeChange.DAL\\obj\\",
+      "outputPath": "C:\\Projectos\\GitHub\\CodeChallengeGreenSlate\\CodeChallengeGreenSlate\\CodeChange.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

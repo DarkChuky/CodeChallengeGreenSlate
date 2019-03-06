@@ -60,6 +60,9 @@ namespace CodeChallenge.BLL
                     {
                         ModelDomain.UserProject uResult = new ModelDomain.UserProject();
 
+                        uResult.AssignedDate = e.AssignedDate;
+                        uResult.IsActive = e.IsActive;
+
                         uResult.User = new ModelDomain.User();
                         uResult.UserId = user.Id;
                         uResult.User.Id = user.Id;

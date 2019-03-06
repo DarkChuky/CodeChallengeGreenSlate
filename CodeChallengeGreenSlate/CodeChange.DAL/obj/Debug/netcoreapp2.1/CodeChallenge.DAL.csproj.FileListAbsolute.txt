@@ -7,3 +7,12 @@ C:\Projectos\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\Code
 C:\Projectos\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.AssemblyInfo.cs
 C:\Projectos\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.dll
 C:\Projectos\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.pdb
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\bin\Debug\netcoreapp2.1\CodeChallenge.DAL.deps.json
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\bin\Debug\netcoreapp2.1\CodeChallenge.DAL.dll
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\bin\Debug\netcoreapp2.1\CodeChallenge.DAL.pdb
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.csprojAssemblyReference.cache
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.csproj.CoreCompileInputs.cache
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.AssemblyInfoInputs.cache
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.AssemblyInfo.cs
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.dll
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChange.DAL\obj\Debug\netcoreapp2.1\CodeChallenge.DAL.pdb
