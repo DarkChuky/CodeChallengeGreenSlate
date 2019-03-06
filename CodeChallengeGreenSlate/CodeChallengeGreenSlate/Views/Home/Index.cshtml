@@ -1,0 +1,71 @@
+﻿@{
+    Layout = null;
+}
+
+@model CodeChallengeGreenSlate.Models.Home.Users
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+
+    <h1>Hola mundito</h1>
+    <br /><br />
+    <div>
+
+        @Html.DropDownListFor(m => m.SelectedUserId, Model.UserList, "--", new { @class = "form-control", @onchange = "GetUserProjects()" })
+    </div>
+
+    <div>
+        <table class="table table-bordered table-responsive table-hover" id="tblProjects">
+            <tr>
+                <th>Project Id </th>
+                <th>Start Date </th>
+                <th>Time To Start </th>
+                <th>End Date</th>
+                <th>Credits</th>
+                <th>Status</th>
+            </tr>
+
+        </table>
+    </div>
+
+    <script type="text/javascript">
+
+        function GetUserProjects() {
+
+            //$("#tblProjects").empty();
+
+            $.getJSON('/Home/GetUserProjects', { userId: $("#SelectedUserId").val() }, function (data) {
+
+                var tblProjects = $("#tblProjects");
+                $.each(data, function (index, item) {
+                    var tr = $("<tr></tr>");
+                    tr.html(("<td>" + item.projectID + "</td>")
+                        + " " + ("<td>" + item.startDate + "</td>")
+                        + " " + ("<td>" + item.timeToStart + "</td>")
+                        + " " + ("<td>" + item.endDate + "</td>")
+                        + " " + ("<td>" + item.credits + "</td>")
+                        + " " + ("<td>" + item.status + "</td>"));
+                    tblProjects.append(tr);
+                });
+
+            });
+        }
+    </script>
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
+
+
