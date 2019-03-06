@@ -52,7 +52,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(110, 723, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1571c679ecf24b648e659e59e152bf85", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b850574de6240b68e56dc99cf7663bb", async() => {
                 BeginContext(116, 710, true);
                 WriteLiteral(@"
     <style>
@@ -107,7 +107,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(835, 1803, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a29810746d5458f93e47ed5f5acd1e0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "410066ea37ee467b850b5cff83d27872", async() => {
                 BeginContext(841, 86, true);
                 WriteLiteral("\r\n\r\n\r\n    <h2>CodeChallenge - GreenSlate</h2>\r\n    <br /><br />\r\n    <div>\r\n\r\n        ");
                 EndContext();

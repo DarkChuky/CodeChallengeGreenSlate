@@ -60,3 +60,4 @@ C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChalleng
 C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChallengeGreenSlate\obj\Debug\netcoreapp2.1\CodeChallengeGreenSlate.csproj.CopyComplete
 C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChallengeGreenSlate\obj\Debug\netcoreapp2.1\CodeChallengeGreenSlate.dll
 C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChallengeGreenSlate\obj\Debug\netcoreapp2.1\CodeChallengeGreenSlate.pdb
+C:\Projectos\GitHub\CodeChallengeGreenSlate\CodeChallengeGreenSlate\CodeChallengeGreenSlate\bin\Debug\netcoreapp2.1\web.config

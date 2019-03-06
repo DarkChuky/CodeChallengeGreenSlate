@@ -29,7 +29,8 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "runtime": {
           "CodeChallengeGreenSlate.dll": {}
@@ -549,7 +550,8 @@
       "CodeChallenge.BLL/1.0.0": {
         "dependencies": {
           "CodeChallenge.DAL": "1.0.0",
-          "CodeChallenge.ModelDomain": "1.0.0"
+          "CodeChallenge.ModelDomain": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "runtime": {
           "CodeChallenge.BLL.dll": {}

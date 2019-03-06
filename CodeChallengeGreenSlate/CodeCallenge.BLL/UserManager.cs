@@ -1,19 +1,19 @@
 ﻿using CodeChallenge.BLL.Interface;
-using CodeChallenge.ModelDomain;
 using CodeChallenge.DAL;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 
 namespace CodeChallenge.BLL
 {
     public class UserManager : IUserManager
     {
+        const string sqlConnection = @"Server=localhost\SQLEXPRESS;Database=CodeChallenge;Trusted_Connection=True;";
         public List<CodeChallenge.ModelDomain.User> GetAllUsers()
         {
             var optionsBuilder = new DbContextOptionsBuilder<CodeChallengeContext>();
-            optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=CodeChallenge;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(sqlConnection);
 
             using (CodeChallengeContext contex = new CodeChallengeContext(optionsBuilder.Options))
             {
@@ -43,7 +43,7 @@ namespace CodeChallenge.BLL
             if (userId > 0)
             {
                 var optionsBuilder = new DbContextOptionsBuilder<CodeChallengeContext>();
-                optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=CodeChallenge;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(sqlConnection);
 
                 using (CodeChallengeContext contex = new CodeChallengeContext(optionsBuilder.Options))
                 {

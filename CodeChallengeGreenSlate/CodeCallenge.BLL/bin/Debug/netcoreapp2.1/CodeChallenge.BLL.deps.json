@@ -9,7 +9,8 @@
       "CodeChallenge.BLL/1.0.0": {
         "dependencies": {
           "CodeChallenge.DAL": "1.0.0",
-          "CodeChallenge.ModelDomain": "1.0.0"
+          "CodeChallenge.ModelDomain": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "runtime": {
           "CodeChallenge.BLL.dll": {}

@@ -4649,7 +4649,8 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "CodeChallenge.DAL": "1.0.0",
-          "CodeChallenge.ModelDomain": "1.0.0"
+          "CodeChallenge.ModelDomain": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "compile": {
           "bin/placeholder/CodeChallenge.BLL.dll": {}
@@ -12672,7 +12673,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "System.Configuration.ConfigurationManager >= 4.5.0"
     ]
   },
   "packageFolders": {
@@ -12742,6 +12744,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[4.5.0, )"
           }
         },
         "imports": [
