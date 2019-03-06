@@ -4,6 +4,7 @@ using CodeChallenge.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodeChallenge.BLL
 {
@@ -11,7 +12,10 @@ namespace CodeChallenge.BLL
     {
         public List<CodeChallenge.ModelDomain.User> GetAllUsers()
         {
-            using (CodeChallengeContext contex = new CodeChallengeContext())
+            var optionsBuilder = new DbContextOptionsBuilder<CodeChallengeContext>();
+            optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=CodeChallenge;Trusted_Connection=True;");
+
+            using (CodeChallengeContext contex = new CodeChallengeContext(optionsBuilder.Options))
             {
                 List<ModelDomain.User> result = new List<ModelDomain.User>();
 
@@ -34,39 +38,47 @@ namespace CodeChallenge.BLL
 
         public List<ModelDomain.UserProject> GetUserProject(int userId)
         {
-
+            
             List<ModelDomain.UserProject> result = new List<ModelDomain.UserProject>();
-            using (CodeChallengeContext contex = new CodeChallengeContext())
+            if (userId > 0)
             {
+                var optionsBuilder = new DbContextOptionsBuilder<CodeChallengeContext>();
+                optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=CodeChallenge;Trusted_Connection=True;");
 
-                //get the user data
-                DAL.User user = contex.User.Where(u => u.Id == userId).Single();
-
-                //include("User").Include("Project") or a Select with joins of just the required field is faster, 
-                //just doing example of multiple DB access in a BLL
-
-                List<DAL.UserProject> resultDB = contex.UserProject.Where(e => e.UserId == userId).ToList();
-
-                resultDB.ForEach(e =>
+                using (CodeChallengeContext contex = new CodeChallengeContext(optionsBuilder.Options))
                 {
-                    ModelDomain.UserProject uResult = new ModelDomain.UserProject();
 
-                    uResult.User = new ModelDomain.User();
-                    uResult.User.Id = user.Id;
-                    uResult.User.FirstName = user.FirstName;
-                    uResult.User.LastName = user.LastName;
+                    //get the user data
+                    DAL.User user = contex.User.Where(u => u.Id == userId).Single();
+
+                    //include("User").Include("Project") or a Select with joins of just the required field is faster, 
+                    //just doing example of multiple DB access in a BLL
+
+                    List<DAL.UserProject> resultDB = contex.UserProject.Where(e => e.UserId == userId).ToList();
+
+                    resultDB.ForEach(e =>
+                    {
+                        ModelDomain.UserProject uResult = new ModelDomain.UserProject();
+
+                        uResult.User = new ModelDomain.User();
+                        uResult.UserId = user.Id;
+                        uResult.User.Id = user.Id;
+                        uResult.User.FirstName = user.FirstName;
+                        uResult.User.LastName = user.LastName;
 
                     //get project from DB
                     DAL.Project project = contex.Project.Where(p => p.Id == e.ProjectId).Single();
-                    uResult.Project = new ModelDomain.Project();
+                        uResult.Project = new ModelDomain.Project();
 
-                    uResult.Project.Id = project.Id;
-                    uResult.Project.StartDate = project.StartDate;
-                    uResult.Project.EndDate = project.EndDate;
-                    uResult.Project.Credits = project.Credits;
+                        uResult.ProjectId = project.Id;
+                        uResult.Project.Id = project.Id;
+                        uResult.Project.StartDate = project.StartDate;
+                        uResult.Project.EndDate = project.EndDate;
+                        uResult.Project.Credits = project.Credits;
 
-                    result.Add(uResult);
-                });
+                        result.Add(uResult);
+                    });
+                }
             }
             return result;
         }

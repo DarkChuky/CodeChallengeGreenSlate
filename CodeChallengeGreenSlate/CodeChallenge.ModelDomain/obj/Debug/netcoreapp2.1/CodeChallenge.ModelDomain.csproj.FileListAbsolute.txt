@@ -1,0 +1,9 @@
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\bin\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.deps.json
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\bin\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\bin\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.pdb
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\obj\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.csprojAssemblyReference.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\obj\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.csproj.CoreCompileInputs.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\obj\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.AssemblyInfoInputs.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\obj\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.AssemblyInfo.cs
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\obj\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeChallenge.ModelDomain\obj\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.pdb

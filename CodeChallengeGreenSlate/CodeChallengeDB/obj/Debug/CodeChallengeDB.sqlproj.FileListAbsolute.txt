@@ -1,0 +1,6 @@
+C:\Projectos\CodeChallengeGreenSlate\CodeChallengeDB\bin\Debug\CodeChallengeDB.dacpac
+C:\Projectos\CodeChallengeGreenSlate\CodeChallengeDB\bin\Debug\CodeChallengeDB.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeChallengeDB\bin\Debug\CodeChallengeDB.pdb
+C:\Projectos\CodeChallengeGreenSlate\CodeChallengeDB\obj\Debug\CodeChallengeDB.sqlprojAssemblyReference.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeChallengeDB\obj\Debug\CodeChallengeDB.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeChallengeDB\obj\Debug\CodeChallengeDB.pdb

@@ -9,13 +9,45 @@
 <html>
 
 <head>
+    <style>
+
+
+        .form-control {
+            color: #fff;
+            font-size: 20px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #cc2a41;
+            font-weight: bold;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
 <body>
 
 
-    <h1>Hola mundito</h1>
+    <h2>CodeChallenge - GreenSlate</h2>
     <br /><br />
     <div>
 
@@ -24,15 +56,20 @@
 
     <div>
         <table class="table table-bordered table-responsive table-hover" id="tblProjects">
-            <tr>
-                <th>Project Id </th>
-                <th>Start Date </th>
-                <th>Time To Start </th>
-                <th>End Date</th>
-                <th>Credits</th>
-                <th>Status</th>
-            </tr>
 
+            <thead>
+                <tr>
+                    <th>Project Id </th>
+                    <th>Start Date </th>
+                    <th>Time To Start </th>
+                    <th>End Date</th>
+                    <th>Credits</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
         </table>
     </div>
 
@@ -40,7 +77,7 @@
 
         function GetUserProjects() {
 
-            //$("#tblProjects").empty();
+            $("#tblProjects > tbody").empty();
 
             $.getJSON('/Home/GetUserProjects', { userId: $("#SelectedUserId").val() }, function (data) {
 

@@ -1,0 +1,14 @@
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.BLL.deps.json
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.BLL.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.BLL.pdb
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.DAL.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.ModelDomain.pdb
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\bin\Debug\netcoreapp2.1\CodeChallenge.DAL.pdb
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.csprojAssemblyReference.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.csproj.CoreCompileInputs.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.AssemblyInfoInputs.cache
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.AssemblyInfo.cs
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.csproj.CopyComplete
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.dll
+C:\Projectos\CodeChallengeGreenSlate\CodeCallenge.BLL\obj\Debug\netcoreapp2.1\CodeChallenge.BLL.pdb
